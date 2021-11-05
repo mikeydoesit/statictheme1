@@ -4,7 +4,7 @@
     align-items: center;
     font-family: sans-serif;
     &__promotion-banner {
-        background: #A19691;
+        background: #f7797d;
         color: #fcfcfc;
         width: -webkit-fill-available;
         display: flex;
@@ -26,9 +26,11 @@
         justify-content: space-between;
         width: -webkit-fill-available;
         .logo-wrapper {
+            display: flex;
+            align-items: center;
             a {
-                color: #636363;
-                font-weight: 900;
+                color: #2c2952;
+                font-family: 'Abril Fatface', cursive;
             }
         }
         .search-wrapper {
@@ -62,9 +64,10 @@
             align-items: center;
             a {
                 font-size: 19px;
-                color: #636363;
+                color: #2c2952;
                 &:first-of-type {
-                    font-size: 14px;
+                    font-size: 12px;
+                    font-weight: 500;
                     letter-spacing: 1px;
                     margin-right: 35px;
                 }
@@ -76,13 +79,13 @@
     }
     &__navigation {
         padding: 14px 56px;
-        background: #fff3ea;
+        background: #FBD786;
         width: -webkit-fill-available;
         display: flex;
         justify-content: center;
         a {
             text-decoration: none;
-            color: #0c0c0c;
+            color: #2c2952;
             font-size: 12px;
             font-weight: 600;
             letter-spacing: 1.5px;
@@ -90,6 +93,9 @@
             &:last-of-type {
                 margin-right: 0;
             }
+            // &:hover {
+            //     color: #FBD786;
+            // }
         }
     }
 }

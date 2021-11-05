@@ -1,0 +1,80 @@
+.header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    &__promotion-banner {
+        background: #FBD786;
+        color: #2c2952;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: center;
+        padding: 7px 0;
+        span {
+            display: block;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    }
+    &__header-main {
+        background: #f7797d;
+        display: flex;
+        flex-direction: row;
+        padding: 14px 70px;
+        justify-content: space-between;
+        width: -webkit-fill-available;
+        .navigation-wrapper {
+            flex: 1;
+            color: #fcfcfc;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: #fcfcfc;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+                margin-right: 28px;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+                // &:hover {
+                //     color: #FBD786;
+                // }
+            }
+        }
+        .logo-wrapper {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            a {
+                color: #fcfcfc;
+                font-size: 26px;
+                font-family: 'Abril Fatface', cursive;
+            }
+        }
+        .user-wrapper {
+            display: flex;
+            flex: 1;
+            justify-content: flex-end;
+            align-items: center;
+            a {
+                font-size: 19px;
+                color: #fcfcfc;
+                padding-left: 14px;
+                i {
+                    font-size: 20px;
+                    -webkit-text-stroke: 1px #f7797d;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    
+}
