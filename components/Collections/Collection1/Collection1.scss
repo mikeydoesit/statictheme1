@@ -15,7 +15,29 @@
             position: absolute;
             object-fit: cover;
             object-position: center;
+            transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -o-transition: all .4s cubic-bezier(.165,.85,.45,1);
         }
+        &:hover {
+            cursor: pointer;
+            .collection1__front-img {
+                opacity: 0;
+            }
+            .collection1__back-img {
+                opacity: 1;
+            }
+            .collection1__heart {
+                opacity: 1;
+            }
+        }
+    }
+    &__front-img {
+        opacity: 1;
+    }
+    &__back-img {
+        opacity: 0;
     }
     &__product-details {
         display: flex;
@@ -39,8 +61,10 @@
     }
     &__heart {
         position: absolute;
-        right: 7px;
-        color: #f7797d;
+        opacity: 0;
+        right: 18px;
+        top: 18px;
+        color: #222;
         cursor: pointer;
         transition: all .4s cubic-bezier(.165,.85,.45,1);
         -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
