@@ -11,12 +11,12 @@ export default function Header1() {
 
                 <div className="search-wrapper">
                     <input type="text" placeholder="SEARCH"/>
-                    <a href="/link"><i class="fas fa-search"></i></a>
+                    <a href="/link"><i className="fas fa-search"></i></a>
                 </div>
                 
                 <div className="user-wrapper">
                     <a href="/account">ACCOUNT</a>
-                    <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
             <div className="header1__navigation">

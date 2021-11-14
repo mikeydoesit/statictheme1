@@ -4,16 +4,16 @@
     align-items: center;
     font-family: sans-serif;
     &__promotion-banner {
-        background: #f7797d;
+        background: #d3c5be;
         color: #fcfcfc;
         width: -webkit-fill-available;
         display: flex;
         justify-content: center;
-        padding: 7px 0;
+        padding: 10px 0;
         span {
             display: block;
             text-transform: uppercase;
-            font-size: 11px;
+            font-size: 12px;
             font-weight: 600;
             letter-spacing: 1px;
         }
@@ -22,15 +22,17 @@
         background: #fcfcfc;
         display: flex;
         flex-direction: row;
-        padding: 14px 56px;
+        padding: 18px 70px;
         justify-content: space-between;
+        align-items: center;
         width: -webkit-fill-available;
         .logo-wrapper {
             display: flex;
             align-items: center;
             a {
-                color: #2c2952;
-                font-family: 'Abril Fatface', cursive;
+                color: #222;
+                font-family: 'Playfair Display', serif;
+                font-size: 30px;
             }
         }
         .search-wrapper {
@@ -64,12 +66,12 @@
             align-items: center;
             a {
                 font-size: 19px;
-                color: #2c2952;
-                &:first-of-type {
+                color: #222;
+                &:first-of-type {        
                     font-size: 12px;
-                    font-weight: 500;
-                    letter-spacing: 1px;
-                    margin-right: 35px;
+                    font-weight: 600;
+                    letter-spacing: 1.5px;
+                    margin-right: 28px;
                 }
             }
         }
@@ -78,14 +80,14 @@
         }
     }
     &__navigation {
-        padding: 14px 56px;
-        background: #FBD786;
+        padding: 0 56px 14px 56px;
+        background: #fcfcfc;
         width: -webkit-fill-available;
         display: flex;
         justify-content: center;
         a {
             text-decoration: none;
-            color: #2c2952;
+            color: #222;
             font-size: 12px;
             font-weight: 600;
             letter-spacing: 1.5px;

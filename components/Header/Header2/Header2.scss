@@ -4,8 +4,8 @@
     align-items: center;
     font-family: sans-serif;
     &__promotion-banner {
-        background: #FBD786;
-        color: #2c2952;
+        background: #d3c5be;
+        color: #fcfcfc;
         width: -webkit-fill-available;
         display: flex;
         justify-content: center;
@@ -19,28 +19,24 @@
         }
     }
     &__header-main {
-        background: #f7797d;
+        background: #fcfcfc;
         display: flex;
         flex-direction: row;
-        padding: 14px 70px;
+        padding: 18px 70px;
         justify-content: space-between;
         width: -webkit-fill-available;
         .navigation-wrapper {
             flex: 1;
-            color: #fcfcfc;
             display: flex;
             justify-content: flex-start;
             align-items: center;
             a {
                 text-decoration: none;
-                color: #fcfcfc;
+                color: #222;
                 font-size: 12px;
                 font-weight: 600;
                 letter-spacing: 1.5px;
                 margin-right: 28px;
-                &:last-of-type {
-                    margin-right: 0;
-                }
                 // &:hover {
                 //     color: #FBD786;
                 // }
@@ -52,9 +48,9 @@
             justify-content: center;
             align-items: center;
             a {
-                color: #fcfcfc;
-                font-size: 26px;
-                font-family: 'Abril Fatface', cursive;
+                color: #222;
+                font-size: 30px;
+                font-family: 'Playfair Display', serif;
             }
         }
         .user-wrapper {
@@ -64,11 +60,10 @@
             align-items: center;
             a {
                 font-size: 19px;
-                color: #fcfcfc;
-                padding-left: 14px;
+                color: #222;
+                padding-left: 28px;
                 i {
-                    font-size: 20px;
-                    -webkit-text-stroke: 1px #f7797d;
+                    // -webkit-text-stroke: 1px #222;
                 }
             }
         }
