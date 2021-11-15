@@ -1,17 +1,21 @@
 .collection1 {
     padding: 49px 0px;
     &__collection-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     &__product-image {
-        height: 350px;
+        height: 300px;
+        width: 300px;
         background: transparent;
-        border: 1px solid #222;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         img {
-            max-width: 70%;
+            width: 100%;
+            height: 100%;
             position: absolute;
             object-fit: cover;
             object-position: center;
@@ -42,30 +46,47 @@
     &__product-details {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         position: relative;
         padding: 14px 7px;
     }
     &__product-name {
+        font-size: 18px;
         font-weight: 600;
         color: #222;
         letter-spacing: 1px;
         font-family: 'Poppins', sans-serif;
-        padding-bottom: 7px;
+        padding: 21px 0 14px;
+    }
+    &__product-cat {
+        font-size: 14px;
+        font-weight: 400;
+        color: #222;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 14px;
     }
     &__product-price {
-        font-size: 14px;
+        font-size: 18px;
         color: #222;
         font-weight: 600;
         letter-spacing: 0.5px;
     }
     &__heart {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #fcfcfc;
+        height: 40px;
+        width: 40px;
         opacity: 0;
-        right: 18px;
-        top: 18px;
+        right: 5%;
+        top: 5%;
         color: #222;
         cursor: pointer;
+        z-index: 2;
         transition: all .4s cubic-bezier(.165,.85,.45,1);
         -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
         -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
