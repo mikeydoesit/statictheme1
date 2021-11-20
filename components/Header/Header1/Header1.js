@@ -2,6 +2,24 @@ export default function Header1() {
     return (
         <header className="header header1">
             <div className="header1__header-main">
+                <div className="menu-toggle-wrapper">
+                    <input className="menu-toggle" type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div className="header1__mobile-navigation">
+                        <a href="/link" className="header1__expanding-link">LINK <i className="fas fa-chevron-down"></i>
+                            <ul className="header1__sub-links">
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </a>
+                        <a href="/link">LINK</a>
+                        <a href="/link">LINK</a>
+                    </div>
+                </div>
                 <div className="logo-wrapper">
                     <a href="/link">LOGO</a>
                 </div>
@@ -19,7 +37,7 @@ export default function Header1() {
                             <i className="fas fa-search"></i>
                         </div>
                     </div>
-                    <a href="/account">ACCOUNT</a>
+                    <a className="account-btn" href="/account">ACCOUNT</a>
                     <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
