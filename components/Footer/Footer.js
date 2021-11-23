@@ -8,38 +8,47 @@ export default function Footer() {
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="footer__links">
-                                        <span className="footer__column-title">About</span>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
+                                        <input type="checkbox" className="footer__checkbox"/>
+                                        <span className="footer__column-title">About <i className="fas fa-plus"></i></span>
+                                        <div className="footer__menu-links-wrapper">
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="footer__links">
-                                        <span className="footer__column-title">Help</span>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
+                                        <input type="checkbox" className="footer__checkbox"/>
+                                        <span className="footer__column-title">Help <i className="fas fa-plus"></i></span>
+                                        <div className="footer__menu-links-wrapper">
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="footer__links">
-                                        <span className="footer__column-title">Quick Links</span>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
-                                        <a className="footer__link">Link</a>
+                                        <input type="checkbox" className="footer__checkbox"/>
+                                        <span className="footer__column-title">Quick Links <i className="fas fa-plus"></i></span>
+                                        <div className="footer__menu-links-wrapper">
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                            <a className="footer__link">Link</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3">
-                            <span className="footer__column-title">Follow us</span>
+                            <span className="footer__column-title footer__column-title__newsletter">Follow us</span>
                             <p className="footer__paragraph">Don't miss out! Join us to get special offers.</p>
                             <div className="footer__email-input">
                                 <input type="text" placeholder="johndoe@gmail.com"/>
