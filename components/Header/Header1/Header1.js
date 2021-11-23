@@ -2,7 +2,7 @@ export default function Header1() {
     return (
         <header className="header header1">
             <div className="header1__header-main">
-                <div className="menu-toggle-wrapper">
+                <div className="header1__menu-toggle-wrapper">
                     <input className="menu-toggle" type="checkbox" />
                     <span></span>
                     <span></span>

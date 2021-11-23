@@ -86,7 +86,7 @@
             text-decoration: none;
         }
     }
-    &__menu-toggle {
+    &__menu-toggle-wrapper {
         display: none;
     }
     &__navigation {
@@ -148,7 +148,7 @@
     .header1 {
         &__header-main {
             padding: 14px 2rem;
-            .menu-toggle-wrapper {
+            .header1__menu-toggle-wrapper {
                 flex: 1;
                 display: flex;
                 position: relative;
@@ -172,6 +172,7 @@
                         opacity: 1;
                         transform: rotate(-45deg) translate(5px, 18px);
                         background: #222;
+                        right: 26%;
                     }
                     &:checked ~ span:nth-last-child(3) {
                         opacity: 0;
