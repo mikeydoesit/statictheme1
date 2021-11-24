@@ -17,7 +17,7 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            object-fit: cover;
+            object-fit: contain;
             object-position: center;
             transition: all .4s cubic-bezier(.165,.85,.45,1);
             -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
@@ -97,3 +97,53 @@
         }
     }
 }
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 575.98px) {
+    .collection1 {
+        padding-top: 24.5px;
+        &__product-image {
+        }
+        span {
+            text-align: center;
+        }
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 577px) and (max-width: 767.98px) { 
+    .collection1 {
+        padding-top: 24.5px;
+        &__product-image {
+            height: 50vw;
+        }
+        span {
+            text-align: center;
+        }
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+    .collection1 {
+        padding-top: 24.5px;
+        &__product-image {
+            height: 33.33vw;
+            width: 100%;
+            img {
+                object-fit: contain;
+            }
+        }
+        &__heart {
+            right: 7%;
+            top: 14%;
+        }
+        span {
+            text-align: center;
+        }
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 991.99px) and (max-width: 1199.98px) { 
+    
+ }

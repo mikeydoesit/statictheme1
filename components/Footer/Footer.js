@@ -4,9 +4,9 @@ export default function Footer() {
             <footer className="footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-9">
+                        <div className="col-lg-9 col-12">
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-lg-4  col-12">
                                     <div className="footer__links">
                                         <input type="checkbox" className="footer__checkbox"/>
                                         <span className="footer__column-title">About <i className="fas fa-plus"></i></span>
@@ -19,7 +19,7 @@ export default function Footer() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-12">
                                     <div className="footer__links">
                                         <input type="checkbox" className="footer__checkbox"/>
                                         <span className="footer__column-title">Help <i className="fas fa-plus"></i></span>
@@ -32,7 +32,7 @@ export default function Footer() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-12">
                                     <div className="footer__links">
                                         <input type="checkbox" className="footer__checkbox"/>
                                         <span className="footer__column-title">Quick Links <i className="fas fa-plus"></i></span>
@@ -47,7 +47,7 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-12">
                             <span className="footer__column-title footer__column-title__newsletter">Follow us</span>
                             <p className="footer__paragraph">Don't miss out! Join us to get special offers.</p>
                             <div className="footer__email-input">

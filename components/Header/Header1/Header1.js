@@ -38,7 +38,7 @@ export default function Header1() {
                         </div>
                     </div>
                     <a className="account-btn" href="/account">ACCOUNT</a>
-                    <a href="/cart"><i className="fas fa-shopping-cart"></i></a>
+                    <a className="cart-btn" href="/cart"><i className="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
             <div className="header1__navigation">

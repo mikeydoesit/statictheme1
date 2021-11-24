@@ -55,10 +55,18 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            .cart-btn {
+                width: 32px;
+                height: 32px;
+                background: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .search {
                 display: none;
                 .search-btn {
-                    width: 40px;
+                    width: 32px;
                     height: 32px;
                     background: transparent;
                     display: flex;
@@ -147,7 +155,7 @@
 @media (min-width: 300px) and (max-width: 575.98px) {
     .header1 {
         &__header-main {
-            padding: 14px 2rem;
+            padding: 14px 1.4rem;
             .header1__menu-toggle-wrapper {
                 flex: 1;
                 display: flex;
@@ -207,7 +215,7 @@
                     justify-content: flex-start;
                     position: absolute;
                     left: -2rem;
-                    top: 100%;
+                    top: calc(100% + 2px);
                     height: 100vh;
                     padding: 14px 56px 14px 56px;
                     background: #fcfcfc;
@@ -260,10 +268,9 @@
                     position: relative;
                     .checkbox {
                         display: block;
-                        width: 40px;
+                        width: 32px;
                         height: 32px;
                         position: absolute;
-                        right: 28px;
                         cursor: pointer;
                         opacity: 0; /* hide this */
                         z-index: 2; /* and place it over the hamburger */
@@ -282,16 +289,17 @@
                     }
                     .search-box {
                         position: absolute;
-                        width: 30vw;
-                        left: -330%;
+                        width: 50vw;
+                        right: calc(100% + 2px);
                         opacity: 0;
                         border: none;
                         outline: none;
                         border-bottom: 2px solid#d3c5be;
                         color: #222;
+                        background: #fcfcfc;
                         list-style-type: none;
                         -webkit-font-smoothing: antialiased;
-                        transform-origin: 0% 0%;
+                        transform-origin: 100% 0%;
                         transform: scaleX(0);
                         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
                     }
@@ -365,7 +373,7 @@
                     justify-content: flex-start;
                     position: absolute;
                     left: -2rem;
-                    top: 100%;
+                    top: calc(100% + 2px);
                     height: 100vh;
                     padding: 14px 56px 14px 56px;
                     background: #fcfcfc;
@@ -409,7 +417,7 @@
             }
             .logo-wrapper {
                 flex: 1;
-                justify-content: center;
+                justify-content: flex-start;
             }
             .user-wrapper {
                 flex: 1;
@@ -439,16 +447,17 @@
                     }
                     .search-box {
                         position: absolute;
-                        width: 30vw;
-                        left: -330%;
+                        width: 50vw;
+                        right: calc(100% + 2px);
                         opacity: 0;
                         border: none;
                         outline: none;
                         border-bottom: 2px solid#d3c5be;
                         color: #222;
+                        background: #fcfcfc;
                         list-style-type: none;
                         -webkit-font-smoothing: antialiased;
-                        transform-origin: 0% 0%;
+                        transform-origin: 100% 0%;
                         transform: scaleX(0);
                         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
                     }
@@ -496,8 +505,8 @@
                     }
                     .search-box {
                         position: absolute;
-                        max-width: 300px;
-                        left: -450%;
+                        width: 50vw;
+                        right: calc(100% + 2px);
                         opacity: 0;
                         border: none;
                         outline: none;
@@ -505,7 +514,7 @@
                         color: #222;
                         list-style-type: none;
                         -webkit-font-smoothing: antialiased;
-                        transform-origin: 0% 0%;
+                        transform-origin: 100% 0%;
                         transform: scaleX(0);
                         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
                     }
@@ -550,16 +559,17 @@
                     }
                     .search-box {
                         position: absolute;
-                        max-width: 300px;
-                        left: -450%;
+                        width: 50vw;
+                        right: calc(100% + 2px);
                         opacity: 0;
                         border: none;
                         outline: none;
                         border-bottom: 2px solid#d3c5be;
                         color: #222;
+                        background: #fcfcfc;
                         list-style-type: none;
                         -webkit-font-smoothing: antialiased;
-                        transform-origin: 0% 0%;
+                        transform-origin: 100% 0%;
                         transform: scaleX(0);
                         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
                     }
