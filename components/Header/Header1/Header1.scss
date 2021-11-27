@@ -136,7 +136,8 @@
         background: #fcfcfc;
         color: #222;
         min-width: 150px;
-        left: 0;
+        top: 100%;
+        left: -20px;
         opacity: 0;
         padding: 20px;
         visibility: hidden;
@@ -236,6 +237,7 @@
                     .header1__sub-links {
                         width: 100%;
                         padding: 7px 0 7px 14px;
+                        left: 0px;
                         li {
                             a {
                                 width: 100%;
@@ -400,6 +402,7 @@
                     .header1__sub-links {
                         width: 100%;
                         padding: 7px 0 7px 14px;
+                        left: 0px;
                         li {
                             a {
                                 width: 100%;
