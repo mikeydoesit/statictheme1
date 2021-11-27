@@ -7,18 +7,20 @@ export default function Header1() {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <div className="header1__mobile-navigation">
-                        <a href="/link" className="header1__expanding-link">LINK <i className="fas fa-chevron-down"></i>
-                            <ul className="header1__sub-links">
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                            </ul>
-                        </a>
+                    <ul className="header1__mobile-navigation">
+                        <li className="header1__expanding-link">
+                            <a href="/link">LINK <i className="fas fa-chevron-down"></i>
+                                <ul className="header1__sub-links">
+                                    <li><a href="#">Link</a></li>
+                                    <li><a href="#">Link</a></li>
+                                    <li><a href="#">Link</a></li>
+                                    <li><a href="#">Link</a></li>
+                                </ul>
+                            </a>
+                        </li>
                         <a href="/link">LINK</a>
                         <a href="/link">LINK</a>
-                    </div>
+                    </ul>
                 </div>
                 <div className="logo-wrapper">
                     <a href="/link">LOGO</a>
@@ -41,18 +43,20 @@ export default function Header1() {
                     <a className="cart-btn" href="/cart"><i className="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
-            <div className="header1__navigation">
-                <a href="/link" className="header1__expanding-link">LINK <i className="fas fa-chevron-down"></i>
-                    <ul className="header1__sub-links">
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                </a>
+            <ul className="header1__navigation">
+                <li className="header1__expanding-link">
+                    <a href="/link">LINK <i className="fas fa-chevron-down"></i>
+                        <ul className="header1__sub-links">
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                    </a>
+                </li>
                 <a href="/link">LINK</a>
                 <a href="/link">LINK</a>
-            </div>
+            </ul>
         </header>
     )
 }

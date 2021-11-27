@@ -120,7 +120,9 @@
         }
     }
     &__expanding-link {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        margin-right: 28px;
         position: relative;
         &:hover {
             .header1__sub-links {
@@ -225,6 +227,12 @@
                     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                                 opacity 0.55s ease;
+                    .header1__expanding-link {
+                        margin: 0;
+                        a {
+                            width: 100%;
+                        }
+                    }
                     .header1__sub-links {
                         width: 100%;
                         padding: 7px 0 7px 14px;
@@ -383,6 +391,12 @@
                     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                                 opacity 0.55s ease;
+                    .header1__expanding-link {
+                        margin: 0;
+                        a {
+                            width: 100%;
+                        }
+                    }
                     .header1__sub-links {
                         width: 100%;
                         padding: 7px 0 7px 14px;
