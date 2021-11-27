@@ -18,8 +18,12 @@ export default function Header1() {
                                 </ul>
                             </a>
                         </li>
-                        <a href="/link">LINK</a>
-                        <a href="/link">LINK</a>
+                        <li>
+                            <a href="/link">LINK</a>
+                        </li>
+                        <li>
+                            <a href="/link">LINK</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="logo-wrapper">
@@ -54,8 +58,15 @@ export default function Header1() {
                         </ul>
                     </a>
                 </li>
-                <a href="/link">LINK</a>
-                <a href="/link">LINK</a>
+                <li>
+                    <a href="/link">LINK</a>
+                </li>
+                <li>
+                    <a href="/link">LINK</a>
+                </li>
+                <li>
+                    <a href="/link">LINK</a>
+                </li>
             </ul>
         </header>
     )
