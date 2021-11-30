@@ -23,6 +23,7 @@
         }
         img {
             width: 100%;
+            height: auto;
             top: 0;
             left: 0;
             position: absolute;
@@ -66,6 +67,7 @@
         letter-spacing: 1px;
         font-family: 'Poppins', sans-serif;
         padding: 21px 0 14px;
+        text-align: center;
     }
     &__product-cat {
         font-size: 14px;
