@@ -1,6 +1,6 @@
 .header__promotion-banner {
-    background: #d3c5be;
-    color: #fcfcfc;
+    background: var(--announcebar-default-bgd);
+    color: var(--announcebar-default-txtclr);
     width: -webkit-fill-available;
     display: flex;
     justify-content: center;

@@ -9,8 +9,8 @@ export default function MainLayout(props) {
         <>  
             <AnnouncementBar1 />
             <Header1 />
-            <Header2 />
-            <Header3 />
+            {/* <Header2 />
+            <Header3 /> */}
                 <main>{props.children}</main>
             <Footer />
         </>

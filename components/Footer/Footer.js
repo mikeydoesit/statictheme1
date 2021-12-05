@@ -50,8 +50,8 @@ export default function Footer() {
                         <div className="col-lg-3 col-12">
                             <span className="footer__column-title footer__column-title__newsletter">Follow us</span>
                             <p className="footer__paragraph">Don't miss out! Join us to get special offers.</p>
-                            <div className="footer__email-input">
-                                <input type="text" placeholder="johndoe@gmail.com"/>
+                            <div className="footer__email-input-wrapper">
+                                <input className="footer__email-input" type="text" placeholder="johndoe@gmail.com"/>
                                 <a className="footer__email-input__icon">
                                     <i className="far fa-envelope fa-lg"></i> 
                                 </a>

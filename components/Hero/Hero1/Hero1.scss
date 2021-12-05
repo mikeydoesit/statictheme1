@@ -1,7 +1,6 @@
 .hero1 {
     height: fit-content;
     position: relative;
-    margin-bottom: 49px;
     &__bg {
         position: absolute;
         object-fit: cover;
@@ -13,16 +12,13 @@
     &__align-left {
         .hero1__content-container {
             justify-content: flex-start;
-            padding-left: 70px;
             .hero1__info {
-                padding-left: 100px;
             }
         }
     }
     &__align-center {
         .hero1__content-container {
             justify-content: center;
-            padding: 2.8rem 1.8rem;
             .hero1__info {
                 display: flex;
                 flex-direction: column;
@@ -37,14 +33,12 @@
     &__align-right {
         .hero1__content-container {
             justify-content: flex-end;
-            padding-right: 70px;
             .hero1__info {
-                padding-left: 100px;
             }
         }
     }
     &__content-container {
-        padding: 2.8rem 1.8rem;
+        padding: 6rem;
         position: relative;
         top: 0;
         left: 0;
@@ -67,12 +61,14 @@
         text-transform: capitalize;
         line-height: 1.4;
         font-family: 'Poppins', sans-serif;
+        color: #fcfcfc;
     }
     &__paragraph {
         margin: 28px 0px 56px;
         font-weight: 400;
         letter-spacing: 0.025em;
         font-size: 1.4rem;
+        color: #fcfcfc;
     }
     &__button {
         color: #fcfcfc;

@@ -6,6 +6,8 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    padding: 1rem 0;
+    background-color: #fcfcfc;
     
     &__header-main {
         background: #fcfcfc;
@@ -66,6 +68,7 @@
             .search {
                 display: none;
                 .search-btn {
+                    color: #222;
                     width: 32px;
                     height: 32px;
                     background: transparent;
