@@ -2,9 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #fcfcfc;
+    padding-bottom: 1rem;
     font-family: sans-serif;
     z-index: 100;
     width: -webkit-fill-available;
+    transition: all .4s cubic-bezier(.165,.85,.45,1);
+    -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
+    -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
+    -o-transition: all .4s cubic-bezier(.165,.85,.45,1);
     
     &__header-main {
         display: flex;
