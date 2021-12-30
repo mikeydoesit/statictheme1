@@ -5,6 +5,7 @@ import Hero2 from '../components/Hero/Hero2/Hero2'
 import Collection1 from '../components/Collections/Collection1/Collection1'
 import Collection2 from '../components/Collections/Collection2/Collection2'
 import Collage1 from '../components/Collage/Collage1/Collage1'
+import SectionTitle1 from '../components/Titles/SectionTitle1/SectionTitle1'
 
 export default function Home() {
   return (
@@ -15,10 +16,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero1 />
-      <Hero2 />
+      <SectionTitle1 title="Bestsellers" textalign="aligned-left"/>
       <Collection1 />
-      <Collage1 />
+      <Hero2 />
+      <SectionTitle1 title="New Arrivals" textalign="aligned-left"/>
       <Collection2 />
+      <SectionTitle1 title="@wearehomebody_ on instagram" textalign="aligned-center"/>
+      <Collage1 />
     </MainLayout>
   )
 }
