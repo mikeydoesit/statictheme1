@@ -4,6 +4,7 @@ import Hero1 from '../components/Hero/Hero1/Hero1'
 import Hero2 from '../components/Hero/Hero2/Hero2'
 import Collection1 from '../components/Collections/Collection1/Collection1'
 import Collection2 from '../components/Collections/Collection2/Collection2'
+import Collage1 from '../components/Collage/Collage1/Collage1'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero1 />
       <Hero2 />
       <Collection1 />
+      <Collage1 />
       <Collection2 />
     </MainLayout>
   )

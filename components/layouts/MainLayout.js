@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 
 export default function MainLayout(props) {
     return (
-        <div className="fixed-nav transparent-nav">
+        <div className="fixed-nav">
             <Header1 />
             {/* <Header2 />
             <Header3 /> */}
