@@ -1,0 +1,49 @@
+.collection3 {
+    min-height: 50vh;
+    padding: 35px 0;
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        &__item {
+            min-width: 0;
+            img {
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                width: -webkit-fill-available;
+            }
+        }
+    }
+    &__cta-wrapper {
+        width: 100%;
+        background-color: #c6c3be;
+        .cta {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 21px 0px;
+            height: 100%;
+            .offer {
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+            .btn {
+                background-color: #fcfcfc;
+                padding: 12px 21px;
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            h1 {
+                text-align: center;
+                font-weight: 800;
+                font-size: 4rem;
+                text-transform: uppercase;
+                margin: 28px 0;
+            }
+        }
+    }
+}

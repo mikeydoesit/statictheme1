@@ -6,6 +6,7 @@ import Collection1 from '../components/Collections/Collection1/Collection1'
 import Collection2 from '../components/Collections/Collection2/Collection2'
 import Collage1 from '../components/Collage/Collage1/Collage1'
 import SectionTitle1 from '../components/Titles/SectionTitle1/SectionTitle1'
+import Collection3 from '../components/Collections/Collection3/Collection3'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Collection2 />
       <SectionTitle1 title="@wearehomebody_ on instagram" textalign="aligned-center"/>
       <Collage1 />
+      <Collection3 />
     </MainLayout>
   )
 }
