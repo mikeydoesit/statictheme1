@@ -13,8 +13,8 @@ export default function Collection3() {
                 </div>
                 <div className="collection3__grid__item collection3__cta-wrapper">
                     <div className="cta">
-                        <span className="offer">30% off sitewide</span>
-                        <h1>January<br/>Sales</h1>
+                        <span className="offer">January Sales</span>
+                        <h1>30% off<br/>sitewide</h1>
                         <span className="btn">Shop Now</span> 
                     </div>
                 </div>
