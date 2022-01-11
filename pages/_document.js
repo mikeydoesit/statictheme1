@@ -15,8 +15,9 @@ class MyDocument extends Document {
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
             <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet" />
+            <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"></link>
           </Head>
-          <body>
+          <body className="fixed-nav">
             <Main />
             <NextScript />
           </body>
