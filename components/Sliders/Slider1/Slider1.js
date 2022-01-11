@@ -3,7 +3,7 @@ import Script from "next/script"
 export default function Slider1() {
     return (
         <div className="slider1">
-            <div className="slider1__container" data-flickity='{ "cellAlign": "left", "wrapAround": "true", "draggable": "false", "pageDots": "false", "arrowShape": "M2.87868 47.8787C1.70711 49.0503 1.70711 50.9497 2.87868 52.1213L21.9706 71.2132C23.1421 72.3848 25.0416 72.3848 26.2132 71.2132C27.3848 70.0416 27.3848 68.1421 26.2132 66.9706L9.24264 50L26.2132 33.0294C27.3848 31.8579 27.3848 29.9584 26.2132 28.7868C25.0416 27.6152 23.1421 27.6152 21.9706 28.7868L2.87868 47.8787ZM96 47L5 47L5 53L96 53L96 47Z" }'>
+            <div className="slider1__container" data-flickity='{ "cellAlign": "left", "wrapAround": true, "draggable": false, "pageDots": false, "arrowShape": "M2.87868 47.8787C1.70711 49.0503 1.70711 50.9497 2.87868 52.1213L21.9706 71.2132C23.1421 72.3848 25.0416 72.3848 26.2132 71.2132C27.3848 70.0416 27.3848 68.1421 26.2132 66.9706L9.24264 50L26.2132 33.0294C27.3848 31.8579 27.3848 29.9584 26.2132 28.7868C25.0416 27.6152 23.1421 27.6152 21.9706 28.7868L2.87868 47.8787ZM96 47L5 47L5 53L96 53L96 47Z" }'>
                 <div className="slider1__item">
                     <div className="slider1__product-image">
                         <span className="slider1__heart"><i className="far fa-heart fa-lg"></i></span>
