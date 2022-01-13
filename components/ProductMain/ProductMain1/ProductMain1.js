@@ -61,13 +61,13 @@ export default function ProductMain1() {
                     <div className="productmain1__details__accordion__description">
                         <div className="productmain1__details__accordion__description__button">
                             <span className="productmain1__details__accordion__description__button__title">Description</span>
-                            <span className="productmain1__details__accordion__description__button__icon"><i class="fas fa-grip-horizontal"></i></span>
+                            <span className="productmain1__details__accordion__description__button__icon"><i className="fas fa-grip-horizontal"></i></span>
                         </div>
                     </div>
                     <div className="productmain1__details__accordion__extrainfo">
                         <div className="productmain1__details__accordion__extrainfo__button">
                             <span className="productmain1__details__accordion__extrainfo__button__title">Description</span>
-                            <span className="productmain1__details__accordion__extrainfo__button__icon"><i class="fas fa-grip-horizontal"></i></span>
+                            <span className="productmain1__details__accordion__extrainfo__button__icon"><i className="fas fa-grip-horizontal"></i></span>
                         </div>
                     </div>
                 </div>

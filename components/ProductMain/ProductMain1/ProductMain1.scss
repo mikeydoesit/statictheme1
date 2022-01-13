@@ -4,7 +4,7 @@
     -moz-grid-gap: 3.1875rem;
     grid-gap: 3.1875rem;
     grid-template-columns: 60% auto;
-    padding-bottom: 49px;
+    padding-bottom: 35px;
     grid-template-rows: repeat(1,1fr);
 
     &__thumbnail {
@@ -52,7 +52,7 @@
         &__ratings {
             margin: 1.4rem 0;
             i {
-                margin-right: 1px;
+                margin-right: 4px;
             }
         }
         &__quantity{
@@ -61,7 +61,7 @@
             flex-direction: row;
             justify-content: flex-start;
             align-items: center;
-            font-weight: 400;
+            font-weight: 600;
             padding: 2.1rem 0px;
 
             span {
