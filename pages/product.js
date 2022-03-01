@@ -14,7 +14,7 @@ export default function Product() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="container">
-                <Breadcrumbs />
+                <Breadcrumbs firstCrumb={'Collections'} secondCrumb={'Product'} />
                 <ProductMain1 />
                 <RelatedProducts1 />
                 <Reviews1 />

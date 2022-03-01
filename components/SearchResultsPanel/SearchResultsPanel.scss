@@ -1,0 +1,23 @@
+.searchresultspanel {
+    background-color: #d3c5be;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fcfcfc;
+    margin: 0 auto;
+
+    span {
+        font-weight: 500;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-bottom: 7px;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 2.1rem;
+        text-transform: uppercase;
+    }
+}

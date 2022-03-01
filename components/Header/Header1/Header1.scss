@@ -11,6 +11,7 @@
     -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
     -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
     -o-transition: all .4s cubic-bezier(.165,.85,.45,1);
+    position: relative;
     
     &__header-main {
         display: flex;

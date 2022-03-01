@@ -1,0 +1,165 @@
+.collectiongrid {
+    padding: 35px 0px;
+    display: grid;
+    grid-gap: 42px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto);
+    &__collection-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    &__product-link {
+        width: 100%;
+        display: flex;
+        padding: 14px;
+    }
+    &__product-image {
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .collectiongrid__front-img {
+            position: relative;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            top: 0;
+            left: 0;
+            position: absolute;
+            object-fit: contain;
+            object-position: center;
+            transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -o-transition: all .4s cubic-bezier(.165,.85,.45,1);
+        }
+        &:hover {
+            cursor: pointer;
+            .collectiongrid__front-img {
+                opacity: 0;
+            }
+            .collectiongrid__back-img {
+                opacity: 1;
+            }
+            .collectiongrid__heart {
+                opacity: 1;
+            }
+        }
+    }
+    &__front-img {
+        opacity: 1;
+    }
+    &__back-img {
+        opacity: 0;
+    }
+    &__product-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 14px 7px;
+    }
+    &__product-name {
+        font-size: 18px;
+        font-weight: 600;
+        color: #222;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+        padding: 21px 0 14px;
+        text-align: center;
+    }
+    &__product-cat {
+        font-size: 14px;
+        font-weight: 400;
+        color: #222;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 14px;
+        text-align: center;
+    }
+    &__product-price {
+        font-size: 18px;
+        color: #222;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+    &__heart {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #fcfcfc;
+        height: 40px;
+        width: 40px;
+        opacity: 0;
+        right: 5%;
+        top: 5%;
+        color: #222;
+        cursor: pointer;
+        z-index: 2;
+        transition: all .4s cubic-bezier(.165,.85,.45,1);
+        -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
+        -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
+        -o-transition: all .4s cubic-bezier(.165,.85,.45,1);
+        &:hover {
+            transform: scale(1.05);
+            color: #fd6166;
+        }
+    }
+}
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 575.98px) {
+    .collectiongrid {
+        padding-top: 24.5px;
+        &__product-image {
+        }
+        span {
+            text-align: center;
+        }
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 577px) and (max-width: 767.98px) { 
+    .collectiongrid {
+        padding-top: 24.5px;
+        &__product-image {
+            height: 50vw;
+        }
+        span {
+            text-align: center;
+        }
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+    .collectiongrid {
+        padding-top: 24.5px;
+        &__product-image {
+            height: 33.33vw;
+            width: 100%;
+            img {
+                object-fit: contain;
+            }
+        }
+        &__heart {
+            right: 7%;
+            top: 14%;
+        }
+        span {
+            text-align: center;
+        }
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 991.99px) and (max-width: 1199.98px) { 
+    
+ }

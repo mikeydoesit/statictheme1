@@ -1,0 +1,75 @@
+.four0four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 49px;
+
+    &__title {
+        h1 {
+            font-size: 14rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+            line-height: 1;
+        }
+    }
+
+    &__subtitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+
+        &__bold {
+            font-weight: 600;
+        }
+        &__normal {
+            font-weight: 400;
+            font-size: 1rem;
+        }
+        span {
+            &:first-of-type {
+                padding-bottom: 7px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    &__buttons {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 28px;
+        &__home {
+            margin-right: 21px;
+        }
+        &__search {
+            
+        }
+        a {
+            transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -o-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            cursor: pointer;
+            letter-spacing: .5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7px 21px;
+            height: 100%;
+            border-radius: 20px;
+            border: 2px solid #d3c5be;
+            font-size: .85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #d3c5be;
+                color: #fcfcfc;
+            }
+        }
+    }
+}

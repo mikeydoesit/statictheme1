@@ -1,3 +1,5 @@
+import Cart1 from "../../Cart/Cart1/Cart1"
+
 export default function Header1() {
     return (
         <header className="header header1">
@@ -68,6 +70,7 @@ export default function Header1() {
                     <a href="/link">LINK</a>
                 </li>
             </ul>
+            <Cart1 />
         </header>
     )
 }
