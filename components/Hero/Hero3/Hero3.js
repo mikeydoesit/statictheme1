@@ -7,7 +7,7 @@ export default function Hero3() {
                 </div>
                 <div className="hero3__grid__item">
                     <div className="hero3__cta">
-                        <h2 className="hero3__cta__title">Make a house a home</h2>
+                        <h2 className="hero3__cta__title">Make your house a home</h2>
                         <p className="hero3__cta__subtitle">Personalise your home with quality art that expresses your style</p>
                         <span className="hero3__cta__btn">Shop Now</span>
                     </div>
