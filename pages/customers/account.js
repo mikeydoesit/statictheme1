@@ -14,7 +14,7 @@ export default function () {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className='accountpagemain'>
-                <Greeting1 />
+                <Greeting1 text="Welcome back, Lisa!" />
                 <CustomerInfo1 />
                 <Orders1 />
                 <Addresses1 />

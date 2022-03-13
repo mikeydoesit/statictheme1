@@ -1,0 +1,62 @@
+.addresses2 {
+    margin-top: 28px;
+    margin-left: 3vw;
+    padding: 28px 42px;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+
+        &__one, &__two, &__city, &__postcode{
+            line-height: 1;
+            padding-bottom: 7px;
+        }
+        &__name {
+            font-weight: 500;
+            padding-bottom: 14px;
+        }
+    }
+
+    &__updel {
+        display: flex;
+        flex-direction: column;
+
+        a {
+           width: 100%;
+           text-decoration: none;
+           color: inherit;
+           text-align: right;
+           transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -moz-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -webkit-transition: all .4s cubic-bezier(.165,.85,.45,1);
+            -o-transition: all .4s cubic-bezier(.165,.85,.45,1);
+
+           &:first-of-type {
+               padding-bottom: 9px;
+           }
+           &:last-of-type {
+               &:hover {
+                   color: red;
+               }
+           }
+
+           &:hover {
+               color: inherit;
+           }
+
+           span {
+               font-size: .9rem;
+               text-align: right;
+               padding-right: 9px;
+           }
+        }
+    }
+}

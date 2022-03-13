@@ -1,5 +1,14 @@
 .greeting1 {
-    padding: 7px 0 35px;
-    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0 35px;
+    margin: 0 3vw;
     font-weight: 700;
+    height: 20%;
+
+    h2 {
+        font-size: 1.8rem;
+    }
 }

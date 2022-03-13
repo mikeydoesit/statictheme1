@@ -3,7 +3,7 @@ export default function Collection2() {
         <div className="collection2">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3 col-6">
+                    <div className="col-md-3">
                         <div className="collection2__collection-item">
                             <div className="collection2__product-image">
                                 <span className="collection2__heart"><i className="far fa-heart fa-lg"></i></span>
@@ -17,7 +17,7 @@ export default function Collection2() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-6">
+                    <div className="col-md-3">
                         <div className="collection2__collection-item">
                             <div className="collection2__product-image">
                                 <span className="collection2__heart"><i className="far fa-heart fa-lg"></i></span>
@@ -31,7 +31,7 @@ export default function Collection2() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-6">
+                    <div className="col-md-3">
                         <div className="collection2__collection-item">
                             <div className="collection2__product-image">
                                 <span className="collection2__heart"><i className="far fa-heart fa-lg"></i></span>
@@ -45,7 +45,7 @@ export default function Collection2() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-6">
+                    <div className="col-md-3">
                         <div className="collection2__collection-item">
                             <div className="collection2__product-image">
                                 <span className="collection2__heart"><i className="far fa-heart fa-lg"></i></span>

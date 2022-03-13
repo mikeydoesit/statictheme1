@@ -1,6 +1,6 @@
 @use './404/four0four';
-@use './Forms/ActivationForm/ActivationForm';
-@use './Addresses/Addresses1/Addresses';
+@use './Addresses/Addresses1/Addresses1';
+@use './Addresses/Addresses2/Addresses2';
 @use './AnnouncementBar/AnnouncementBar1/AnnouncementBar1';
 @use './AnnouncementBar/AnnouncementBar2/AnnouncementBar2';
 @use './Banner/Banner1/Banner1';
@@ -13,7 +13,12 @@
 @use './Collections/Collectiongrid/Collectiongrid';
 @use './CustomerInfo/CustomerInfo1/CustomerInfo1';
 @use './Footer/Footer';
+@use './Forms/ActivationForm/ActivationForm';
+@use './Forms/LoginForm/LoginForm';
+@use './Forms/RegisterForm/RegisterForm';
+@use './Forms/ResetPasswordForm/ResetPasswordForm';
 @use './Greeting/Greeting1/Greetings1';
+@use './Greeting/Greeting2/Greetings2';
 @use './Header/Header1/Header1';
 @use './Header/Header2/Header2';
 @use './Header/Header3/Header3';
@@ -21,6 +26,7 @@
 @use './Hero/Hero2/Hero2';
 @use './Hero/Hero3/Hero3';
 @use './Orders/Orders1/Orders1';
+@use './Orders/Orders2/Orders2';
 @use './ProductMain/ProductMain1/ProductMain1';
 @use './Reviews/Reviews1/Reviews1';
 @use './SearchResultsPanel/SearchResultsPanel';

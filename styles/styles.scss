@@ -8,12 +8,38 @@ body {
 .dashboard {
   display: flex;
   flex-direction: row;
-  min-height: 80vh;
+  height: 100vh;
   padding: 35px 1.5vw;
 }
 .accountpagemain {
   width: 100%;
   padding: 0 4vw;
+  height: 100%;
+}
+.orderpagemain {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4vw;
+  width: 100%;
+  height: 100%;
+}
+
+.addressList {
+  overflow-y: scroll;
+  padding: 0 14px 14px 0;
+  height: 80%;
+  
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #d3c5be;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #afa39d;
+    border-radius: 0px;
+    border: 0px;
+  }
 }
 
 .fixed-nav {

@@ -3,13 +3,13 @@ export default function Sidemenu1() {
         <div className="sidemenu1">
             <ul className="sidemenu1__list">
                 <li className="sidemenu1__list__item">
-                    <a>Account</a>
+                    <a href="/customers/account">Account</a>
                 </li>
                 <li className="sidemenu1__list__item">
-                    <a>Addresses</a>
+                    <a href="/customers/addresses">Addresses</a>
                 </li>
                 <li className="sidemenu1__list__item">
-                    <a>Change Password</a>
+                    <a href="/customers/reset_password">Change Password</a>
                 </li>
             </ul>
             <div className="sidemenu1__help">
