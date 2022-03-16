@@ -6,7 +6,6 @@
     padding: 14px 0 35px;
     margin: 0 3vw;
     font-weight: 700;
-    height: 20%;
 
     h2 {
         font-size: 1.8rem;
@@ -19,11 +18,15 @@
 @media (min-width: 300px) and (max-width: 575.98px) {
     .greeting1 {
         height: auto;
-        padding: 0;
-        margin: 0 28px 14px;
+        padding: 0 14px;
+        margin: 0 auto 14px;
 
         h2 {
             font-size: 1.4rem;
+
+            &:last-of-type {
+                text-align: right;
+            }
         }
     }
 }

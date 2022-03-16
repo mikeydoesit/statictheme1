@@ -1,5 +1,4 @@
 .collection3 {
-    min-height: 50vh;
     padding: 35px 0 0;
     &__grid {
         display: grid;
@@ -78,7 +77,13 @@
 /* // Medium devices (tablets, less than 992px) */
 @media (min-width: 767.99px) and (max-width: 991.98px) { 
     .collection3 {
-        
+        &__cta-wrapper {
+            .cta {
+                h1 {
+                    font-size: 2.8rem;
+                }
+            }
+        }
     }
 }
 

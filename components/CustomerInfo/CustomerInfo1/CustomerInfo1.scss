@@ -58,12 +58,60 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (min-width: 577px) and (max-width: 767.98px) { 
-    
+    .customerinfo1 {
+        flex-direction: column;
+        margin: 0;
+        padding: 21px 28px;
+
+        &__title {
+            min-width: 0;
+            margin-bottom: 17px;
+            font-size: 1rem;
+        }
+
+        &__name {
+            margin-bottom: 14px;
+            font-size: 0.9rem;
+            &__label {
+                padding-bottom: 7px;
+            }
+        }
+        &__email {
+            font-size: 0.9rem;
+            &__label {
+                padding-bottom: 7px;
+            }
+        }
+    }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (min-width: 767.99px) and (max-width: 991.98px) { 
-    
+    .customerinfo1 {
+        flex-direction: column;
+        margin: 0;
+        padding: 21px 28px;
+
+        &__title {
+            min-width: 0;
+            margin-bottom: 17px;
+            font-size: 1rem;
+        }
+
+        &__name {
+            margin-bottom: 14px;
+            font-size: 0.9rem;
+            &__label {
+                padding-bottom: 7px;
+            }
+        }
+        &__email {
+            font-size: 0.9rem;
+            &__label {
+                padding-bottom: 7px;
+            }
+        }
+    }
 }
 
 /* // Large devices (desktops, less than 1200px) */
