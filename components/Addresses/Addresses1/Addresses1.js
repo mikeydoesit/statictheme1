@@ -3,7 +3,7 @@ export default function Addresses1() {
         <div className="addresses1">
             <div className="addresses1__title">
                 <h2 className="addresses1__title__text">Primary Address</h2>
-                <a href="/order" className="addresses1__title__link">View all addresses</a>
+                <a href="/customers/order" className="addresses1__title__link">View all addresses</a>
             </div>
             <div className="addresses1__latest">
                 <span className="addresses1__latest__id">18 Rochford</span>

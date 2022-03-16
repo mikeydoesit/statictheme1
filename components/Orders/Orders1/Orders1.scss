@@ -35,8 +35,53 @@
     &__latest {
         display: flex;
         flex-direction: column;
+        text-decoration: none;
+        color: inherit;
         span {
             padding-bottom: 7px;
         }
     }
 }
+
+// Media Queries
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 575.98px) {
+    .orders1 {
+        flex-direction: column;
+        padding: 21px 28px;
+        margin-left: 0;
+
+        &__title {
+            min-width: 0;
+
+            &__text {
+                font-size: 1rem;
+            }
+
+            &__link {
+                display: none;
+            }
+        }
+
+        &__latest {
+            margin-bottom: 14px;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 577px) and (max-width: 767.98px) { 
+    
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+    
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 991.99px) and (max-width: 1199.98px) { 
+    
+ }
