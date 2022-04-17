@@ -22,20 +22,32 @@
     &__images {
         display: flex;
         flex-direction: row;
-        flex-direction: row;
+        -webkit-grid-gap: 1.5rem;
+        -moz-grid-gap: 1.5rem;
+        grid-gap: 1.5rem;
 
     }
     &__feature {
         width: -webkit-fill-available;
+        height: fit-content;
+
+        &:focus, &:focus-visible, &:focus-within {
+            outline: none;
+            box-shadow: none;
+            border: none;
+        }
 
         &__item {
             width: 100%;
-            padding: 0 49px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             img {
+                width: 100%;
                 object-position: center;
                 object-fit: contain;
-                width: -webkit-fill-available;
+                height: fit-content;
             }
         }
     }
@@ -73,13 +85,63 @@
                 justify-content: center;
                 align-items: center;
                 margin-right: 14px;
+                font-weight: 600;
             }
             &__amount {
-                min-width: 150px;
+                width: 150px;
+                border: 2px solid #212529;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 14px;
+                font-weight: 600;
+                text-align: center;
+                /* Chrome, Safari, Edge, Opera */
+                appearance: none;
+                /* Firefox */
+                -moz-appearance: textfield;
+                &::-webkit-outer-spin-button,
+                &::-webkit-inner-spin-button {
+                    /* Chrome, Safari, Edge, Opera */
+                    -webkit-appearance: none;
+                }
             }
             &__plus, &__minus {
                 cursor: pointer;
+                border: 2px solid #212529;
+                height: 40px;
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 14px;
+                font-weight: 600;
             }
+        }
+
+        .shopify-payment-button {
+
+            &__button {
+                text-transform: uppercase;
+                border-radius: 0px;
+                box-shadow: none;
+                font-size: inherit;
+                font-weight: inherit;
+            }
+            &__button--button--unbranded {
+                background-color: #fcfcfc;
+                padding: 0.7rem;
+                border: 2px solid #212529;
+                color: #212529;
+
+                &:hover {
+                    background-color: #d3c5be;
+                    border: 2px solid #d3c5be;
+                    color: #fcfcfc;
+                }
+            }
+
         }
 
         &__addToCart {
@@ -89,8 +151,10 @@
             grid-template-columns: auto 40px;
             grid-template-rows: 40px;
             padding-top: .7rem;
+            margin-bottom: 1rem;
 
             &__button {
+                padding: 1rem;
                 box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
                 background-color: #212529;
                 color: #fcfcfc;
@@ -103,10 +167,11 @@
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
+                border: none;
                 &:hover {
                     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-                    background-color: #d3c5be;
-                    color: #fcfcfc;
+                    background-color: #fcfcfc;
+                    color: #212529;
                 }
             }
         }
